@@ -31,7 +31,7 @@ console.log(b < 3); // true */
 // const a = 3;
 // console.log(a >= 3); //true
 
-
+---------------------------------------------------------
 
 Logical Operators
 NOT(!)
@@ -53,3 +53,22 @@ OR (||)
 // console.log(a || b); // true
 // console.log(b || b); // false
 // console.log((c>2) || (c<2)); // true
+
+
+MANTIKSAL OPERATÖRLER   
+AND      &&      ve          (ampersan)
+ OR      ||      veya        (pipe)
+NOT      !       değildir    (negation)
+and false hassastır. 
+true1   &&  true2       --> true2  false bulamadı en son true'yu return etti
+true    &&  false       --> false  ilk false aldı
+false1  &&  false2     --> false1  ilk false aldı
+false   &&  true       --> false   ilk false aldı.
+or true hassastır. 
+true1   ||  true2       --> true1  ilk true'yu alır
+true    ||  false       --> true  ilk false aldı
+false1  ||  false2     --> false2 true bulamadı en son false aldı 
+false   ||  true       --> true   ilk true aldı.
+not terse çevirir.
+!false                  --> true
+!true                   --> false
